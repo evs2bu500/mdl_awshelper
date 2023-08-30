@@ -10,11 +10,16 @@
 	</parent>
 	<groupId>com.pabu5h.evs2</groupId>
 	<artifactId>awshelper</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>awshelper</name>
 	<description>AWS Helper Module</description>
+<!--	<properties>-->
+<!--		<java.version>20</java.version>-->
+<!--	</properties>-->
 	<properties>
-		<java.version>20</java.version>
+		<maven.compiler.source>20</maven.compiler.source>
+		<maven.compiler.target>20</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencyManagement>
