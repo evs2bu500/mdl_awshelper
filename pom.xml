@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.pabu5h.evs2</groupId>
 	<artifactId>awshelper</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<name>awshelper</name>
 	<description>AWS Helper Module</description>
 <!--	<properties>-->
