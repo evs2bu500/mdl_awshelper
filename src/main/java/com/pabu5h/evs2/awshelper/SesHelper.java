@@ -14,6 +14,7 @@ public class SesHelper {
     public void sendSimpleMessage(String to, String subject, String text) {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setTo(to);
+        message.setFrom("no-reply@evs.com.sg");
         message.setSubject(subject);
         message.setText(text);
         this.mailSender.send(message);
